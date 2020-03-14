@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar  8 12:27:54 2020
+
+@author: bryce
+"""
+
+
+# wheel = (1,2,3,4,5,6,7,8,9,10)
+wheel = {0 :'You lose 50% of your earnings', 1 :'game over', 2 :'game over', 3 :'game over', 4 :4, 5 :5, 6: 6, 7 :14, 8 :16, 9 :18, 10 : 20}
+chance = input('The wheel will contain numbers 0-10, type spin when you are ready to spin the wheel ' )
+from random import randint
+spin = randint(0, 10)
+earnings = 0
+print(spin)
+while spin > 3: 
+    earnings += wheel[spin] 
+    spin = randint(0, 10)
+    print(spin)
+    if spin == 0:
+        print('You lost 50% of your earnings, but you get to spin again.')
+        earnings = earnings/2
+else: 
+    print(f'Your earnings is equal to ${earnings}')
+    
+     # print(f'You lost 50% of your earnings, but you get to spin again. What you are at so far is ${earnings/2}')
+    
+""" 
+    
+    
+    print('The result is ' + str(wheel[spin]))
+if spin >= 4:
+    print('You get to spin again'), += str(wheel[spin])
+    elif spin == 0
+    str(wheel[spin])/2
+else:
+    print(str(wheel[spin]))
+break
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+       """
+
+"""if spin == wheels[4]
+    print('The game is over')
+            
+            
+print(i)
+
+"""
