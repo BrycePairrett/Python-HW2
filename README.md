@@ -1,7 +1,8 @@
 # Python-HW2
 
 <H1> Spin the Wheel </H1>
-<body> The game is played as follows:
+
+<body> <b> The game is played as follows:</b>
 
 * Spin a wheel with a group of numbers (0-10).
 * If you got a 1, 2 or a 3, the game is over.
