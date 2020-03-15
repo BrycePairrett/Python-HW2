@@ -12,6 +12,6 @@ if you got 7, 8, 9, or 10, then you win $14,$16,$18, or $20 and then spin again.
 <p> With each additional spin, you have the chance to win more money, or you might play the game-ending 1, 2, or 3, at which time the game is over and you keep whatever winnings you have accumulated. </p>
  </body>
 
-<H1> Description </H1>
+<H2> Description </H2>
 <body> This was an optional coding assignment I did over spring break to get better practice with Python </body>
 
