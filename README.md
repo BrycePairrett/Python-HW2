@@ -13,5 +13,5 @@ if you got 7, 8, 9, or 10, then you win $14,$16,$18, or $20 and then spin again.
  </body>
 
 <H2> Description </H2>
-<body> This was an optional coding assignment I did over spring break to get better practice with Python </body>
+<details> This was an optional coding assignment I did over spring break to get better practice with Python </details>
 
