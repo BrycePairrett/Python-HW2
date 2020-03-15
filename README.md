@@ -22,7 +22,9 @@ if you got 7, 8, 9, or 10, then you win $14,$16,$18, or $20 and then spin again.
 
 <h2> Running this Program </h2>
 <body>
-You must have a Python IDE, beause it is in the raw data form. 
+1. Must have a Python IDE 
+2. Upload it into your Python IDE 
+3. Test it from there
 </body>
 
 
