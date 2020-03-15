@@ -1,3 +1,4 @@
 # Python-HW2
-Spin the wheel
-<H1> Bryce </H1>
+
+<H1> Project Title </H1>
+<body> Spin the Wheel </body>
