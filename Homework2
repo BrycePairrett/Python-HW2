@@ -19,10 +19,17 @@ print(f'This was the wheel spin {spin}')
 
 
 
-def wheel_spins(spin):
+# wheel = (1,2,3,4,5,6,7,8,9,10)
+from random import randint
+wheel = {0 : 'You lose 50% of your earnings, your total is: ', 1 :'game over', 2 :'game over', 3 :'game over', 4 :4, 5 :5, 6: 6, 7 :14, 8 :16, 9 :18, 10 : 20}
+# Dictonary containing the outcome of the spin
+
+win_list = []
+def wheel_spins():
     num = 0                             # allows the the while function to keep iterating on the 50% loss
     earnings = 0
-    win_list = []
+    spin = randint(0, 10)               # random spin to allow the function to work 
+    print(f'This was the wheel spin {spin}')
     while spin == 0 or spin > 3:
         if spin == 0: 
             print(wheel[0])
@@ -44,10 +51,11 @@ def wheel_spins(spin):
         print(' ')
         print('You are done now')
         print(f'Your total winnings is ${earnings:.2f}')
-        win_list.append(earnings)
-
-wheel_spins(spin)
-
+        if earnings > 0:
+            win_list.append(earnings)
+        
+        
+wheel_spins()
 
 
 
@@ -56,11 +64,18 @@ x = 0
 def simulations(x):
     x = int(input('How many simulations would you like to run '))
     for i in range(0, x):
-        wheel_spins(spin)
+        wheel_spins()
         print(' ')
         
 simulations(x)
 
+max_win = max(win_list)
+print(f'The most money made in a game was ${max_win:.2f}')
 
+print(' ')
+    
+
+average_win = sum(win_list)/len(win_list) 
+print(f'The average amount win in a game was ${average_win:.2f}')
 
 
