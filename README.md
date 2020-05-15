@@ -16,8 +16,8 @@ if you got 7, 8, 9, or 10, then you win $14,$16,$18, or $20 and then spin again.
 <details>
  <summary> Details of this code </summary>
  <p> </p>
-<p> This was an optional coding assignment I did over spring break to get better practice with Python and it sounded like a fun problem to figure out. </P>
-<p> From this practice I got better at using the <u><b>def</b></u> function. It really clairfied what I was struggling to grasp with about the function. </p>
+<p> This was an optional coding assignment I did over spring break to get better practice with Python. </P>
+<p> From this practice I got better at using the <u><b>def</b></u> function. </p>
 </details>
 
 <h2> Running this Program </h2>
